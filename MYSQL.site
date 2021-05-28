@@ -1,0 +1,10 @@
+CREATE DATABASE login;
+CREATE TABLE `login`.`usuario` (
+  `usuario_id` INT NOT NULL AUTO_INCREMENT,
+  `usuario` VARCHAR(200) NOT NULL,
+  `senha` VARCHAR(32) NOT NULL,
+  PRIMARY KEY (`usuario_id`));
+INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('Lucas','10f722b5984a49bce67d434464fae37e');
+INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('Joao','202cb952ac59075b964b07152d234b70');
+INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('Leo','207cb962yc59075i964b0o152d234b70');
+INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('Felipe','302cb062ac59085b964b07152d224b70');
